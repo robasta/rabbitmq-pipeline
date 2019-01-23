@@ -1,3 +1,7 @@
+import pika
+import json
+from scrapy.utils.serialize import ScrapyJSONEncoder
+
 class RabbitMQPipeline(object):
 
 
